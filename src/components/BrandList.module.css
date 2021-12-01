@@ -1,0 +1,51 @@
+.item {
+  width: 600px;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  gap: 3;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+.actions {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: rgb(0, 60, 255);
+  border: 1px solid rgb(0, 60, 255);
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: rgb(0, 60, 255);
+  color: white;
+}
